@@ -1,0 +1,1 @@
+This project goal is to build a landing page prototype with HTML and CSS
