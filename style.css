@@ -1,0 +1,33 @@
+* {
+    margin: 0;
+    padding: 0;
+    font-family: "Roboto", sans-serif;
+    text-decoration: none;
+}
+
+.hero {
+     background-color: #1F2937;
+}
+
+.header {
+    display: flex;
+    justify-content: space-around;
+    padding: 24px;
+}
+
+.header h2 {
+    font-size: 24px;
+    color: #f9faf8;
+}
+
+.header ul {
+    display: flex;
+    list-style: none;
+    gap: 24px;
+}
+
+.header li a {
+    font-size: 18px;
+    color: #e5e7eb;
+}
+
