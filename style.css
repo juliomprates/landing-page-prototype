@@ -115,10 +115,29 @@
     border-radius: 20px;
 }
 
-.body li {
+.body .subtext li {
     white-space: pre-line;
+    color: #1F2937;
 }
 
 
+.body .quote {
+    display: flex;
+    flex-direction: column;
+    padding-bottom: 64px;
+    align-items: center;
+}
 
+.body .quote p {
+    white-space: pre-line;
+    font-size: 36px;
+    font-style: italic;
+    font-weight: 300;
+    color: #1F2937;
+}
+
+.body .quote h3 {
+    padding-left: 510px;
+    font-size: 20px;
+}
 
