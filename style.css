@@ -7,6 +7,7 @@
 
 .hero {
      background-color: #1F2937;
+     padding-bottom: 64px;
 }
 
 .header {
@@ -18,6 +19,7 @@
 .header h2 {
     font-size: 24px;
     color: #f9faf8;
+    font-weight: 800;
 }
 
 .header ul {
@@ -46,7 +48,6 @@
 }
 
 .content h1 {
-    /* align-self: flex-start; */
     font-size: 48px;
     color: #f9faf8;
 }
@@ -57,7 +58,6 @@
 }
 
 .content button {
-    /* align-self: flex-start; */
     font-size: 18px;
     color: #e5e7eb;
     background-color: #3882f6;
@@ -67,7 +67,7 @@
 }
 
 .content button:hover {
-    background-color: gray;
+    background-color: rgb(58, 58, 109);
 }
 
 .hero-content .placeholder {
@@ -75,6 +75,48 @@
    padding: 100px;
    color: #e5e7eb;
    margin-right: 120px;
+}
+
+.body .info {
+    display: flex;
+    flex-direction: column;
+    align-items:center;
+    gap: 16px;
+    padding-top: 42px;
+    padding-bottom: 180px;
+}
+
+.body .info h2 {
+    font-size: 36px;
+    font-weight: 800;
+    color: #1F2937;
+    padding-bottom: 32px;
+}
+
+.body ul {
+    list-style: none;
+}
+
+.body .subtext {
+    display: flex;
+    gap: 40px;
+    padding-bottom: 64px;
+}
+
+.body .placeholder {
+    display: flex;
+    gap: 40px;
+}
+
+.body .placeholder li {
+    width: 140px;
+    height: 140px;
+    border: #3882f6 3px solid;
+    border-radius: 20px;
+}
+
+.body li {
+    white-space: pre-line;
 }
 
 
