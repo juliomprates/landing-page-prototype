@@ -26,11 +26,16 @@
     display: flex;
     list-style: none;
     gap: 24px;
+    padding: 8px;
 }
 
 .header li a {
     font-size: 18px;
     color: #e5e7eb;
+}
+
+.header li a:hover {
+    border-bottom: 1px solid #e5e7eb;
 }
 
 .hero-content {
@@ -67,7 +72,7 @@
 }
 
 .content button:hover {
-    background-color: rgb(58, 58, 109);
+    background-color: #6894df;
 }
 
 .hero-content .placeholder {
@@ -124,7 +129,7 @@
 .body .quote {
     display: flex;
     flex-direction: column;
-    padding-bottom: 64px;
+    padding-bottom: 72px;
     align-items: center;
 }
 
@@ -141,3 +146,39 @@
     font-size: 20px;
 }
 
+
+.body .call-to-action {
+    display: flex;
+    justify-content: space-around;
+    width: 800px;
+    flex-wrap: wrap;
+    margin-top: 150px;
+    margin-bottom: 64px;
+    margin-left: auto;
+    margin-right: auto;
+    padding: 32px 100px;
+    background-color: #3882f6;
+    border-radius: 10px;
+    color: #e5e7eb;
+}
+
+.body .call-to-action button {
+    padding: 0 32px;
+    color: #e5e7eb;
+    background-color: #3882f6;
+    border: 2px solid #e5e7eb;
+    border-radius: 10px;
+    font-size: 16px;
+}
+
+.body .call-to-action button:hover {
+    background-color: #6894df;
+}
+
+.footer {
+    display: flex;
+    justify-content: center;
+    padding: 30px;
+    background-color: #1F2937;
+    color: #e5e7eb;
+}
