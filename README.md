@@ -17,4 +17,4 @@ Page content:
 
 CSS Layout Model used: Flexbox
 
-Live preview: https://juliomprates.github.io/first-landing-page/
+Live preview: https://juliomprates.github.io/landing-page-prototype/
